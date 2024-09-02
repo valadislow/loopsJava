@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    let numbersString = "";
+
+        for(let index = 1; index <= 6; index++) {
+            
+            let randomNumber = Math.floor(Math.random() * 49) + 1;
+
+            numbersString += randomNumber + " ";
+        }
+        alert(numbersString)
+
+    
+        let counter = 0;
+       let numbersStringwhile = "";
+
+while (counter < 6) {
+    let randomNumber = Math.floor(Math.random() * 49) + 1;
+
+    numbersStringwhile += randomNumber + " ";
+
+    counter++;
+}
+alert(numbersStringwhile)
+</script>
+</body>
+</html>
